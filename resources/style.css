@@ -1,0 +1,74 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  overflow:hidden;
+}
+
+
+.container-image {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: justify;
+  color: white;
+  width: 100%;
+  height: auto;
+  font-family: impact, Helvetica;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  padding: 2rem 3rem;
+  background-image:url("file://C:/cygwin64/home/Nathan/Conlenat.github.io/resources/images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container2 {
+  width: 100%;
+  height: auto;
+  background-color:firebrick;
+  border: 2px solid black;
+}
+
+.skills-header {
+  color: white;
+  text-align: center;
+  padding: 1.25rem 0;
+  font-family: Helvetica;
+}
+
+.header {
+  background-color:firebrick;
+  font-size: 1.25rem;
+  display: fixed;
+}
+
+.name {
+  font-size: 1.75rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  padding: 0.75rem 0;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+
+  border: 2px solid black;
+  padding-top: 2rem;
+  height: 575px;
+}
