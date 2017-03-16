@@ -170,26 +170,29 @@ h2 {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1100px) {
-  .skills-header {
-    min-width: 1100px;
-  }
-
-  .container-footer, .footer {
-    min-width: 1100px;
-  }
-}
 
 @media only screen and (max-width: 800px) {
   .skills {
     width: 45%;
   }
 
-  .skills-header{
+  body {
+    overflow: scroll;
+  }
+
+  .container-image {
+    min-width: 810px;
+  }
+
+  .container2 {
+    min-width: 905px;
+  }
+
+  .container-footer{
     min-width: 900px;
   }
 
-  .container-footer, .footer {
+  .container {
     min-width: 900px;
   }
 }
