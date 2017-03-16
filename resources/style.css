@@ -170,6 +170,28 @@ h2 {
 
 /* Media Queries */
 
+@media only screen and (max-width: 1100px) {
+  .container-footer {
+    width: 1200px;
+  }
+
+  .container2 {
+    width: 1205px;
+  }
+
+  body {
+    overflow: scroll;
+  }
+
+  .container-image {
+    width: 1110px;
+  }
+
+  .container {
+    width: 1205px;
+  }
+}
+
 
 @media only screen and (max-width: 800px) {
   .skills {
