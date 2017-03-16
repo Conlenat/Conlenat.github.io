@@ -176,16 +176,16 @@ h2 {
   }
 
   .skills-header{
-    width: 100%;
+    width: 900px;
   }
 
   .container-footer, .footer {
-    width: 100%;
+    width: 900px;
   }
 }
 
 @media only screen and (max-width: 630px) {
   .skills {
-    height: 70%;
+    height: 700px;
   }
 }
