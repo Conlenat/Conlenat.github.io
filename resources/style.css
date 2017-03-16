@@ -37,6 +37,7 @@ body {
   text-align: center;
   padding: 1.25rem 0;
   font-family: Helvetica;
+
 }
 
 .skills-header h2 {
@@ -165,4 +166,17 @@ h2 {
 .footer h1 {
   text-align: center;
   font-size: 1.25rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+  .skills {
+    width: 45%;
+    height: 50%;
+  }
+
+  .body {
+    overflow: scroll;
+  }
 }
