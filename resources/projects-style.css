@@ -11,6 +11,8 @@ div {
   clear:both;
 }
 
+/** Header Section **/
+
 .header {
   float:left;
   width: 100%;
@@ -52,11 +54,13 @@ a {
   border: 2px solid black;
 }
 
+/** Div stylings and text **/
+
 .container-text {
   display: flex;
   position: relative;
   width: 100%;
-  height: 25rem;
+  height: 30rem;
   padding: 2rem 3rem;
   border: 2px solid black;
   justify-content: center;
@@ -72,6 +76,23 @@ h1 {
 }
 
 .life-text {
+  font-family: helvetica;
   border: 2px solid black;
   width: 35%;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.secret {
+  width: 504px;
+  height: 350px;
+}
+
+.github {
+  color: blue;
+  text-decoration: underline;
+}
+
+.github:visited {
+  color: purple;
 }
