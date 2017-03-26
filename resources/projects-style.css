@@ -96,3 +96,17 @@ h1 {
 .github:visited {
   color: purple;
 }
+
+/** Media Queries **/
+
+@media only screen and (max-width: 1300px) {
+  .life-text {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .life-text {
+    width: 95%;
+  }
+}
