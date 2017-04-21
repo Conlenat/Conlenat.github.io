@@ -52,6 +52,8 @@ a {
   border: 2px solid black;
 }
 
+/** Skills List **/
+
 .container-text {
   display: flex;
   position: relative;
@@ -90,7 +92,7 @@ p {
 }
 
 .life-text ul {
-  padding-top: 4rem;
+  padding-top: 1.2rem;
   line-height: 2;
 }
 
@@ -109,12 +111,15 @@ p {
   float: left;
 }
 
-p .left {
-  font-weight: bold;
-}
 
 .right {
   margin-left: 3%;
   width: 44%;
   float: right;
+}
+
+/** Media Queries **/
+
+@media screen and (min-width: 319px) and (max-width: 425px) {
+  
 }
